@@ -1,0 +1,42 @@
+print("==========SUTDENT REPORT==========")
+
+class student:
+    def __init__(self):
+        student=input("student name"+str(i)+":")
+        while(student==str):
+            pass
+        
+class list(student):
+    def __init__(self):
+        sum=0
+        super().__init__()
+        
+        for j in range(1,4):
+            mark=int(input("subject"+str(j)+"mark:"))
+            for k in range(1,2):
+                sum=sum+mark
+               
+        per=((sum/(j*100)*100))       
+        print("Total Mark:",sum)
+        print("Average Mark:",sum/j)
+        print("percentage:",per)
+        sum=0
+        
+        if (per>=90):
+           print("Grade:A"+"(Pass)")
+        elif(per>=80): 
+           print("Grade:B"+"(Pass)")
+        elif(per>=70):
+           print("Grade:C"+"(Pass)")
+        elif(per>50):
+           print("Grade:D"+"(Pass)")
+        else:
+           print("Grade:E"+"(Fail)")
+        print("=======================")
+             
+for i in range(1,5):
+    details=list()
+
+
+    
+
